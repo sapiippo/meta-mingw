@@ -1,9 +1,7 @@
-meta-darwin
+meta-mingw
 ==========
 
-OpenEmbedded meta layer for mingw based SDKs
-
-For dylan you need to patch OE-Core with oecore.patch
+OpenEmbedded meta layer for MinGW based SDKs
 
 This layer depends on:
 
@@ -11,7 +9,17 @@ This layer depends on:
  layers: meta
  branch: master
 
-Layer Maintainer: Richard Purdie <richard.purdie@linuxfoundation.org>
 
-Please send changes to the yocto mailing list with [meta-mingw] in the subject line,
-cc'ing the maintainer.
+Please follow the recommended setup procedures of your OE distribution.
+For Angstrom that is http://www.angstrom-distribution.org/building-angstrom,
+other distros should have similar online resources.
+
+It is preferred that people raise pull requests using GitHub by forking
+the appropriate tree:
+
+    https://github.com/fgretief/meta-mingw
+
+More info on achieving this can be found at http://help.github.com/send-pull-requests.
+
+Maintainer(s):
+    Francois Retief <fgretief@gmail.com>
